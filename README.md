@@ -7,3 +7,6 @@ First run main.py file
 В конце файла есть ответы на все задания. 
 
 В файлах test_for_geom_problems.pdf и test_for_analit_problems.pdf можно увидеть результат работы нашей программы :)
+
+
+The program can automatically generate exam papers for schoolchildren in the Kyrgyz language
