@@ -4,7 +4,6 @@ from stock import allTasks
 import os
 
 
-
 def button_click():
     index_option_tuple = themes_listbox.curselection()
     c = countForm.get()
@@ -71,10 +70,10 @@ errorLabel = Label(frame, pady=4,
 errorLabel.pack_forget()
 
 checkForNum = Label(frame, pady=2,
-                   text="Биринчи талаага 1ден 100гө чейинки эле сандарды киргизсе болот",
-                   font=("Courier", 8),
-                   fg='red',
-                   bg='#fafafa')
+                    text="Биринчи талаага 1ден 100гө чейинки эле сандарды киргизсе болот",
+                    font=("Courier", 8),
+                    fg='red',
+                    bg='#fafafa')
 checkForNum.pack_forget()
 
 themes = []
@@ -83,7 +82,6 @@ for i in allTasks:
     if i['theme'] not in themes:
         themes.append(i['theme'])
         themes_listbox.insert(END, i['theme'])
-
 
 themes_listbox.pack()
 root.mainloop()
